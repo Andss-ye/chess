@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .chess-board {
+    border: 2px solid #333;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .chess-board td {
+    width: 80px; 
+    height: 80px; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .white {
+    background-color: #ffffff;
+  }
+  
+  .black {
+    background-color: #444;
+  }
+  
